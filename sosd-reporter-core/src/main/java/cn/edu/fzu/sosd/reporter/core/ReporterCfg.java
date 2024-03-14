@@ -1,9 +1,9 @@
 package cn.edu.fzu.sosd.reporter.core;
 
 public class ReporterCfg {
-    private String serverUrl;
-    private long keepAliveTime;
-    private String strategy;
+    private final String serverUrl;
+    private final long keepAliveTime;
+    private final String strategy;
 
     public ReporterCfg(String serverUrl, long keepAliveTime, String strategy) {
         this.serverUrl = serverUrl;

@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad49dcaa-88e3-4121-94cf-063c201df56b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-report-types/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/ReporterCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/ReporterHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/exception/CfgNotDefinedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/test/java/cn/edu/fzu/sosd/reporter/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reporter-springboot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sosd-reportserver/pom.xml" afterDir="false" />
+    <list default="true" id="ad49dcaa-88e3-4121-94cf-063c201df56b" name="Changes" comment="框架搭建 + 完成一点core逻辑">
+      <change afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/task/HttpReportTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/Reporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/ReporterCfg.java" beforeDir="false" afterPath="$PROJECT_DIR$/sosd-reporter-core/src/main/java/cn/edu/fzu/sosd/reporter/core/ReporterCfg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sosd-reporter-core/src/test/java/cn/edu/fzu/sosd/reporter/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sosd-reporter-core/src/test/java/cn/edu/fzu/sosd/reporter/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8"
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,8 +73,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710406687904</updated>
-      <workItem from="1710406689059" duration="5672000" />
+      <workItem from="1710406689059" duration="7258000" />
     </task>
+    <task id="LOCAL-00001" summary="框架搭建 + 完成一点core逻辑">
+      <created>1710433689625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710433689625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="框架搭建 + 完成一点core逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="框架搭建 + 完成一点core逻辑" />
   </component>
 </project>

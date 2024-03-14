@@ -13,7 +13,7 @@ public class ApiTest {
     }
 
     void testReporter() {
-        ReporterCfg cfg = new ReporterCfg("", 100L, "");
+        ReporterCfg cfg = new ReporterCfg("", 1000L, "");
         ReporterHolder.register(cfg);
     }
 
